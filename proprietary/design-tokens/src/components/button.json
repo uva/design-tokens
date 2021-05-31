@@ -1,0 +1,27 @@
+{
+  "uva": {
+    "button": {
+      "background-color": {
+        "value": "{uva.color.red.1.value}"
+      },
+      "border-width": {
+        "value": "0"
+      },
+      "color": {
+        "value": "white"
+      },
+      "font-size": {
+        "value": "20px"
+      },
+      "padding-inline": {
+        "value": "16px"
+      },
+      "padding-block": {
+        "value": "10px"
+      },
+      "margin-inline": {
+        "value": "8px"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "uva": {
+    "document": {
+      "background-color": {
+        "value": "white"
+      },
+      "color": {
+        "value": "black"
+      },
+      "font-family": {
+        "value": "{uva.typography.sans-serif.font-family.value}"
+      },
+      "font-size": {
+        "value": "{uva.typography.body.font-size.value}"
+      }
+    }
+  }
+}

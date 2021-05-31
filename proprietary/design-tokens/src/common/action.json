@@ -1,0 +1,11 @@
+{
+  "uva": {
+    "color": {
+      "action": {
+        "primary": {
+          "value": "{uva.color.red.1.value}"
+        }
+      }
+    }
+  }
+}

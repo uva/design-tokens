@@ -1,0 +1,39 @@
+import { Description, Meta, Typeset } from "@storybook/addon-docs/blocks";
+import { MDXEmbedProvider } from "mdx-embed";
+import brandTypography from "../../../proprietary/design-tokens/src/brand/typography.json";
+
+# Lettertypes
+
+<Meta title="UvA/Typography" />
+
+### Serif
+
+Serif font family:
+
+<code>{`${brandTypography["uva"]["typography"]["serif"]["font-family"]["value"]}`}</code>
+
+Fallback:
+
+<code>{`${brandTypography["uva"]["typography"]["serif-fallback"]["font-family"]["value"]}`}</code>
+
+<Typeset
+  fontFamily={brandTypography["uva"]["typography"]["serif"]["font-family"]["value"]}
+  fontSizes={["24px"]}
+  sampleText="The Quick Brown Fox Jumps Over The Lazy Dog"
+/>
+
+### Sans
+
+Sans-serif font family:
+
+<code>{`${brandTypography["uva"]["typography"]["sans-serif"]["font-family"]["value"]}`}</code>
+
+Fallback:
+
+<code>{`${brandTypography["uva"]["typography"]["sans-serif-fallback"]["font-family"]["value"]}`}</code>
+
+<Typeset
+  fontFamily={brandTypography["uva"]["typography"]["sans-serif"]["font-family"]["value"]}
+  fontSizes={["24px"]}
+  sampleText="The Quick Brown Fox Jumps Over The Lazy Dog"
+/>

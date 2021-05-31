@@ -1,0 +1,24 @@
+import { Description, Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
+import { MDXEmbedProvider } from "mdx-embed";
+import brandColorTokens from "../../../proprietary/design-tokens/dist/index.json";
+import { path2css } from "./util.js";
+
+# Colors
+
+<Meta title="UvA/Color" />
+
+Introduction into our brand colors...
+
+## Color Palette
+
+<ColorPalette>
+  <ColorItem title="Red" colors={Object.values(brandColorTokens["uva"]["color"]["red"]).map(({ value }) => value)} />
+</ColorPalette>
+
+## Design Tokens
+
+<ColorPalette>
+  {[brandColorTokens["uva"]["color"]["red"][1]].map(({ original: { name }, value, path }) => (
+    <ColorItem key={path.join("-")} title={name} subtitle={path2css(path)} colors={[value]} />
+  ))}
+</ColorPalette>

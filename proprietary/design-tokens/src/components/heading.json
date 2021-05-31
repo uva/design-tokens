@@ -1,0 +1,10 @@
+{
+  "uva": {
+    "heading-1": {
+      "font-size": { "value": "32px" }
+    },
+    "heading-2": {
+      "font-size": { "value": "29px" }
+    }
+  }
+}

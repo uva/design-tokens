@@ -1,0 +1,11 @@
+{
+  "uva": {
+    "color": {
+      "red": {
+        "1": { "value": "#d52b1e", "name": "UvA Rood (basis)" },
+        "2": { "value": "#f2bfbb", "name": "UvA Rood tint 1" },
+        "3": { "value": "#f9dfdd", "name": "UvA Rood tint 2" }
+      }
+    }
+  }
+}

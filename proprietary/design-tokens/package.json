@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "author": "UVA",
+  "description": "UvA design tokens",
+  "license": "SEE LICENSE IN ../../license.md",
+  "name": "@uva/design-tokens",
+  "private": true,
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:uva/design-tokens.git"
+  },
+  "scripts": {
+    "clean": "rimraf -rf dist/",
+    "prebuild": "npm run clean",
+    "watch": "chokidar --follow-symlinks --initial --command 'npm run build' 'src/**/*.json'",
+    "build": "style-dictionary build --config ./style-dictionary.config.json"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "style-dictionary": "^3.0.0-rc.9"
+  }
+}

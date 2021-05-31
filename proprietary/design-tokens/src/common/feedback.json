@@ -1,0 +1,36 @@
+{
+  "uva": {
+    "color": {
+      "feedback": {
+        "danger": {
+          "value": "{uva.color.red.1.value}"
+        },
+        "warning": {
+          "value": "orange"
+        },
+        "safe": {
+          "value": "green"
+        },
+        "info": {
+          "value": "cornflowerblue"
+        }
+      }
+    },
+    "background-color": {
+      "feedback": {
+        "danger": {
+          "value": "red"
+        },
+        "warning": {
+          "value": "orange"
+        },
+        "safe": {
+          "value": "green"
+        },
+        "info": {
+          "value": "cornflowerblue"
+        }
+      }
+    }
+  }
+}
