@@ -1,1 +1,1 @@
-import '../../../proprietary/design-tokens/dist/index.css';
+import '../../design-tokens/dist/index.css';

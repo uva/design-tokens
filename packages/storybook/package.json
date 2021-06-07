@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@etchteam/storybook-addon-status": "^2.1.0",
-    "@uva/design-tokens": "file:../../proprietary/design-tokens",
+    "@uva/design-tokens": "file:../design-tokens",
     "@storybook/addon-a11y": "^6.2.9",
     "@storybook/addon-docs": "^6.2.9",
     "@storybook/addon-notes": "^5.3.21",

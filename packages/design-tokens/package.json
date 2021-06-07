@@ -11,8 +11,8 @@
   },
   "scripts": {
     "clean": "rimraf -rf dist/",
-    "prebuild": "npm run clean",
-    "watch": "chokidar --follow-symlinks --initial --command 'npm run build' 'src/**/*.json'",
+    "prebuild": "yarn clean",
+    "watch": "chokidar --follow-symlinks --initial --command 'yarn build' 'src/**/*.json'",
     "build": "style-dictionary build --config ./style-dictionary.config.json"
   },
   "devDependencies": {
