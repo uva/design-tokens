@@ -35,7 +35,7 @@
   "scripts": {
     "build": "build-storybook --output-dir dist/ -s src/static/",
     "clean": "rimraf dist/",
-    "storybook": "npm-run-all --parallel 'watch:*'",
+    "storybook": "npm-run-all --parallel watch:**",
     "watch:storybook": "start-storybook -p 6006 -s src/static/",
     "watch:style-dictionary": "lerna run --scope '@uva/design-tokens' watch",
     "start": "node_modules/http-server/bin/http-server dist/"
