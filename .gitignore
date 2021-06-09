@@ -7,6 +7,9 @@ dist/
 tmp/
 *.tgz
 
+# Ignore package-lock as we use yarn
+package-lock.json
+
 # Ignore log files
 *.err
 *.log
