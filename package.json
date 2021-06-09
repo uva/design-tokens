@@ -33,7 +33,6 @@
     "lint": "npm-run-all --continue-on-error lint:** && lerna run lint",
     "lint:css": "stylelint --allow-empty-input '**/*.css'",
     "lint:js": "eslint --no-error-on-unmatched-pattern '**/*.{js,jsx,ts,tsx}'",
-    "lint:html": "find . -type d \\( -name node_modules \\) -prune -false -o -name '*.html' -print0 | xargs -0 npx html-validate",
     "lint:md": "markdownlint '**/*.md'",
     "lint:package-json": "npmPkgJsonLint '**/package.json'",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
