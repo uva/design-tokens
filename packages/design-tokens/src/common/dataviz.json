@@ -1,11 +1,9 @@
 {
   "uva": {
-    "color": {
-      "dataviz": {
-        "1": { "value": "{uva.color.red.1.value}" },
-        "2": { "value": "{uva.color.red.2.value}" },
-        "3": { "value": "{uva.color.red.3.value}" }
-      }
+    "dataviz": {
+      "1": { "color": { "value": "{uva.color.red.1.value}" } },
+      "2": { "color": { "value": "{uva.color.red.2.value}" } },
+      "3": { "color": { "value": "{uva.color.red.3.value}" } }
     }
   }
 }

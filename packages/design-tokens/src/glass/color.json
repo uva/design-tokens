@@ -1,0 +1,51 @@
+{
+  "uva": {
+    "color": {
+      "black": {
+        "solid": { "value": "hsl(270 6% 12%)", "name": "Uva Black" },
+        "transparent": { "value": "hsl(0 0% 0% / 50%)", "name": "Transparent Black" }
+      },
+      "blue": {
+        "half-baked": { "value": "hsl(182 28% 43%)", "name": "Half Baked" },
+        "light-blue": { "value": "hsl(200 40% 82%)", "name": "Light Blue" },
+        "sherpa-blue": { "value": "hsl(184 77% 17%)", "name": "Sherpa Blue" }
+      },
+      "brown": {
+        "kangaroo": { "value": "hsl(60 14% 73%)", "name": "Kangaroo" },
+        "sandy-beach": { "value": "hsl(31 100% 86%)", "name": "Sandy Beach" }
+      },
+      "green": {
+        "clear-day": { "value": "hsl(156 33% 94%)", "name": "Clear Day" },
+        "cruise": { "value": "hsl(162 39% 78%)", "name": "Cruise" },
+        "finch": { "value": "hsl(60 10% 40%)", "name": "Finch" },
+        "humming-bird": { "value": "hsl(162 42% 86%)", "name": "Hummingbird" },
+        "lemon-grass": { "value": "hsl(60 7% 57%)", "name": "Lemon Grass" }
+      },
+      "grey": {
+        "big-stone": { "value": "hsl(196 22% 23%)", "name": "Big Stone" },
+        "chatelle": { "value": "hsl(274 5% 70%)", "name": "Chatelle" },
+        "grey": { "value": "hsl(0 0% 46.4%)", "name": "Grey" },
+        "lavender": { "value": "hsl(240 2.56% 92.35%)", "name": "Lavender" },
+        "matterhorn": { "value": "hsl(0 0% 30.2%)", "name": "Matterhorn" },
+        "scarpa-flow": { "value": "hsl(270 3% 41%)", "name": "Scarpa Flow" },
+        "silver": { "value": "hsl(0 0% 74.9%)", "name": "Silver" },
+        "snow-drift": { "value": "hsl(60 27% 87%)", "name": "Snow Drift" }
+      },
+      "orange": {
+        "chilean-fire": { "value": "hsl(13 64% 53%)", "name": "Chilean Fire" },
+        "outrageous-orange": { "value": "hsl(13 100% 59%)", "name": "Outrageous Orange" }
+      },
+      "red": {
+        "amaranth": { "value": "hsl(349 71% 53%)", "name": "Amaranth" },
+        "cardinal": { "value": "hsl(344.36 100% 36.86%)", "name": "Uva Red" },
+        "carmine": { "value": "hsl(344.25 100% 31.37%)", "name": "Carmine" },
+        "coral": { "value": "hsl(13 99% 68%)", "name": "Coral" }
+      },
+      "white": {
+        "ghost-white": { "value": "hsl(240 5% 96%)", "name": "Ghost White" },
+        "ivory": { "value": "hsl(60 60% 98%)", "name": "Yvory" },
+        "white": { "value": "hsl(0 0% 100%)", "name": "White" }
+      }
+    }
+  }
+}

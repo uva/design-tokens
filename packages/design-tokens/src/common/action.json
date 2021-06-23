@@ -1,9 +1,52 @@
 {
   "uva": {
-    "color": {
-      "action": {
-        "primary": {
-          "value": "{uva.color.red.1.value}"
+    "action": {
+      "primary": {
+        "background-color": {
+          "value": "blue"
+        },
+        "color": {
+          "value": "white"
+        }
+      },
+      "primary-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "blue"
+        }
+      },
+      "secondary": {
+        "background-color": {
+          "value": "lightgrey"
+        },
+        "color": {
+          "value": "black"
+        }
+      },
+      "secondary-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "grey"
+        }
+      },
+      "destructive": {
+        "background-color": {
+          "value": "red"
+        },
+        "color": {
+          "value": "white"
+        }
+      },
+      "destructive-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "darkred"
         }
       }
     }
