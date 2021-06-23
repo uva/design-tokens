@@ -1,0 +1,31 @@
+{
+  "uva": {
+    "typography": {
+      "sans-serif-fallback": {
+        "font-family": {
+          "value": "\"Calibri\", \"Verdana\", \"Arial\", sans-serif"
+        }
+      },
+      "serif-fallback": {
+        "font-family": {
+          "value": "\"Times New Roman\", serif"
+        }
+      },
+      "sans-serif": {
+        "font-family": {
+          "value": "\"Helvetica\""
+        }
+      },
+      "serif": {
+        "font-family": {
+          "value": "\"Georgia\""
+        }
+      },
+      "body": {
+        "font-size": {
+          "value": "18px"
+        }
+      }
+    }
+  }
+}

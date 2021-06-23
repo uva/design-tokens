@@ -1,33 +1,67 @@
 {
   "uva": {
-    "color": {
-      "feedback": {
-        "danger": {
-          "value": "{uva.color.red.1.value}"
-        },
-        "warning": {
-          "value": "orange"
-        },
-        "safe": {
-          "value": "green"
-        },
-        "info": {
-          "value": "cornflowerblue"
-        }
-      }
-    },
-    "background-color": {
-      "feedback": {
-        "danger": {
+    "feedback": {
+      "danger": {
+        "background-color": {
           "value": "red"
         },
-        "warning": {
+        "color": {
+          "value": "white"
+        }
+      },
+      "danger-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "darkred"
+        }
+      },
+      "warning": {
+        "background-color": {
           "value": "orange"
         },
-        "safe": {
+        "color": {
+          "value": "black"
+        }
+      },
+      "warning-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "orangered"
+        }
+      },
+      "safe": {
+        "background-color": {
           "value": "green"
         },
-        "info": {
+        "color": {
+          "value": "white"
+        }
+      },
+      "safe-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
+          "value": "green"
+        }
+      },
+      "info": {
+        "background-color": {
+          "value": "cornflowerblue"
+        },
+        "color": {
+          "value": "white"
+        }
+      },
+      "info-inverse": {
+        "background-color": {
+          "value": "white"
+        },
+        "color": {
           "value": "cornflowerblue"
         }
       }
