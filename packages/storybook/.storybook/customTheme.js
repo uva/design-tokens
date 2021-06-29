@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming/create';
-import colorTokens from '../../design-tokens/src/brand/color.json';
+import colorTokens from '../../design-tokens/src/uva/color.json';
 
 export default create({
   base: 'light',
